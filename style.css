@@ -1,0 +1,401 @@
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  background-color: black;
+
+}
+
+
+@media (max-width: 768px) {
+  header {
+    height: 300px;
+    width: 100%;
+    
+  }
+
+
+
+}
+
+@media (max-width: 480px) {
+  header {max-width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+
+body.light-mode {
+  background-color: rgb(112, 112, 112);
+  color: black;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+#toggleButton {
+  border: #E7D974;
+  position: fixed; /* Fixa o botão em uma posição específica */
+  top: 20px; /* Distância do topo */
+  right: 20px; /* Distância da direita */
+  background-color: blue ; /* Cor do botão em modo claro */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 1s;
+}
+
+#toggleButton:hover {
+  background-color: #E7D974; /* Cor do botão ao passar o mouse */
+}
+
+#dentro2{
+  height: 30vh;
+width: 50%;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+ul li{
+ 
+  list-style: none;
+  font-size: 3.5em;
+  color: white;
+  font-weight: 900;
+  font-style: italic;
+  line-height: 1;
+  color: #E7D974;
+  top: 10vh;
+
+}
+li a{
+  text-decoration: none;
+    color:aliceblue;
+}
+
+header h1 {
+  font-weight: 900;
+  font-size: 60px;
+  color: #E7D974;
+
+}
+
+
+
+header {
+
+   display: flex; 
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+  height: 50VH;
+  max-width: 1534Px;
+  border: solid 2px rgb(2, 54, 78);
+  margin: auto;
+  
+}
+
+
+
+main {
+
+  margin: auto;
+  border: solid 2px rgb(2, 54, 78);
+  width: 1534px;
+  height: 700px;
+  margin-bottom: 50px;
+
+}
+
+main .espa {
+  width: 1500px;
+  height: 100px;
+  background-color: rgb(2, 54, 78);
+  margin-left: 17px;
+  margin-top: 17px;
+  border-radius: 10px;
+}
+
+main .espa h1 {
+  font-size: 60px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: "Offside", sans-serif;
+}
+
+main .espa p {
+  position: relative;
+  top: 50%;
+  left: 20%;
+  text-align: justify;
+  color: white;
+  width: 900px;
+  border-radius: 20px;
+  font-size: 30px;
+  border: inset rgb(2, 54, 78) 5px;
+  transition: 0.4s ease-in-out;
+
+}
+
+main .espa p:hover {
+  border-color: rgb(2, 54, 78);
+  font-size: 40px;
+  width: 1200px;
+  left: 10%;
+}
+
+#front {
+  margin: auto;
+  border: solid 2px rgb(2, 54, 78);
+  width: 1534px;
+  height: 700px;
+  margin-bottom: 50px;
+
+}
+
+#front .fpro h1 {
+
+  font-size: 60px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: "Offside", sans-serif;
+}
+
+#front .fpro {
+  display: block;
+  width: 1500px;
+  height: 100px;
+  background-color: rgb(2, 54, 78);
+  margin-left: 17px;
+  margin-top: 17px;
+  border-radius: 10px;
+}
+
+#front #tabl {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  background-color: white;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 300px;
+}
+
+#front #simuT {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  background-color: white;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-top: 200px;
+  margin-left: 300px;
+
+}
+
+#front #simuS {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-top: 380px;
+  margin-left: 300px;
+
+}
+
+#front #deliveryF {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 600px;
+  margin-left: 1000px;
+}
+
+#front #delivery {
+  position: absolute;
+  font-size: large;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 600px;
+  margin-top: 200px;
+  margin-left: 1000px;
+}
+
+#front #display {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-top: 380px;
+  margin-left: 600px;
+  margin-left: 1000px;
+
+}
+
+#Cs {
+
+
+  margin: auto;
+  margin-bottom: 50px;
+  border: solid 2px rgb(2, 54, 78);
+  width: 1534px;
+  height: 400px;
+}
+
+#Cs .Ch1 {
+
+  display: block;
+  width: 1500px;
+  height: 100px;
+  background-color: rgb(2, 54, 78);
+  margin-left: 17px;
+  margin-top: 17px;
+  border-radius: 10px;
+}
+
+#Cs .Ch1 h1 {
+
+
+  font-size: 60px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: "Offside", sans-serif;
+
+
+}
+
+#Cs #Calc {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  background-color: white;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 300px;
+}
+
+#Cs #velha {
+  font-size: large;
+  position: absolute;
+  display: flex;
+  width: 150px;
+  height: 85px;
+  border: solid 3px rgb(2, 54, 78);
+  border-radius: 30px;
+  margin: 30px;
+  margin-left: 600px;
+  margin-left: 1000px;
+}
+
+footer {
+  margin: auto;
+  border: solid 2px rgb(2, 54, 78);
+  width: 1534px;
+  height: 300px;
+  display: flex;
+
+}
+
+footer #inst {
+  color: #E7D974;
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 50px;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+footer #tell {
+  color: #E7D974;
+  position: absolute;
+  margin-top: 200px;
+  font-size: 50px;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+footer #face {
+position: absolute;
+color: #E7D974;
+margin-left: 1000px;
+font-size: 50px;
+text-decoration: none;
+margin-top: 50px;
+
+}
+
+footer #git {
+  position: absolute;
+  color: #E7D974;
+margin-left: 1000px;
+font-size: 50px;
+margin-top: 200px;
+text-decoration: none;
+}
+
+footer .a{
+  position: absolute;
+  margin-top: 44px;
+
+}
+
+footer .b{
+  position: absolute;
+  margin-top: 194px;
+}
+
+footer .c{
+  position: absolute;
+  margin-left: 910px;
+  margin-top: 44px;
+}
+
+footer .d{
+  position: absolute;
+  margin-top: 194px;
+  margin-left: 910px;
+}
+
